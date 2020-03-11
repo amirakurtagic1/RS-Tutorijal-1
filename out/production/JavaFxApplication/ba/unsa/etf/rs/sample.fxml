@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="ba.unsa.etf.rs.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="340.0" prefWidth="408.0">
+         <children>
+            <TextField layoutX="156.0" layoutY="131.0" prefHeight="26.0" prefWidth="180.0" />
+            <TextField layoutX="156.0" layoutY="170.0" prefHeight="26.0" prefWidth="180.0" />
+            <PasswordField layoutX="156.0" layoutY="207.0" />
+            <Button layoutX="215.0" layoutY="251.0" mnemonicParsing="false" text="Button" />
+            <Label layoutX="156.0" layoutY="89.0" text="Registration Form">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="136.0" text="Full Name " />
+            <Label layoutX="52.0" layoutY="175.0" text="Email Address" />
+            <Label layoutX="52.0" layoutY="212.0" text="Password" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
